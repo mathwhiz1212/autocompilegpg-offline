@@ -1,5 +1,5 @@
 # autocompilegpg-offline
-Offline version of autocompilegpg. A script that automatically compiles and installs or upgrades GnuPG for linux in enviroments where there is unreliable or nonexistant internet.
+Offline version of https://github.com/mathwhiz1212/autocompilegpg. A script that automatically compiles and installs or upgrades GnuPG for linux in enviroments where there is unreliable or nonexistant internet.
 
 This script installs GnuPG-1.4.19 or upgrades current version to GnuPG-1.4.19.
 
