@@ -14,7 +14,6 @@ case $response in
    sudo dpkg -i *.deb
    cd ../.. 
 
-
 #Extracts and compiles GnuPG.
 tar -xvjf gnupg-1.4.19.tar.bz2
 cd gnupg-1.4.19
@@ -32,18 +31,17 @@ cd ..
 rm -rf gnupg-1.4.19
  ;;
  *)
-  #Installs necessary software.
-  cd debs/32
-  sudo dpkg -i *.deb
-  cd ../..
+   #Installs necessary software.
+   cd debs/32
+   sudo dpkg -i *.deb
+   cd ../..
    
-
    #Extracts and compiles GnuPG.
    tar -xvjf gnupg-1.4.19.tar.bz2
    cd gnupg-1.4.19
    ./configure --prefix=/usr
    make 
-   sudo make install 
+   make install 
 
    #Prints version of GnuPG and asks user if it is GnuPG 1.4.19.
    clear
