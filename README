@@ -11,4 +11,4 @@ Please check that the sha1sum checksums match that of the files e.g. sha1sum Gnu
 
 This script has been tested to work on Linux mint. For operating systems that do not have sudo installed please use the nosudo version of the script, you need to run the nosudo script as root for it to run successfully.
 
-This script is licensed under GPLv3, GnuPG is licensed under GPLv3+ and GCC is licensed under GPLv3.
+This script is licensed under GPLv3, GnuPG is licensed under GPLv3+ and GCC is licensed under GPLv3 with the GCC runtime library exception: https://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html
